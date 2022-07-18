@@ -214,3 +214,41 @@ a{
 /* ============================
     Footer Area Style
 =============================== */
+.footer-area{
+    background-color: #282531;
+    padding: 55px 0px 27px;
+}
+.footer-wrapper{
+    display: grid;
+    grid-template-columns: 490px 1fr;
+    margin-bottom: 76px;
+}
+.about-info{
+    margin-right: 94px;
+    color: #ffff;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item h4{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer-item ul{
+    list-style: none;
+}
+.footer-item ul li a{
+    color: #fff;
+    line-height: 30px;
+    transition: .3s;
+}
+.footer-item ul li a:hover{
+    color: #21B573;
+}
+.copyright-area{
+    text-align: center;
+    color: #cdcdcd;
+}
