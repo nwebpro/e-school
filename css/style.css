@@ -199,3 +199,18 @@ a{
 /* ============================
     Testimonial Area Style
 =============================== */
+.testimonial{
+    max-width: 752px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 106px;
+}
+.testimonial img{
+    width: 120px;
+    margin-right: 52px;
+}
+/* ============================
+    Footer Area Style
+=============================== */
