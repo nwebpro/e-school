@@ -21,7 +21,9 @@ a{
     width: 100%;
     margin: auto;
 }
-/* Navbar Style */
+/* ============================
+    Navbar Style
+=============================== */
 .navbar input[type="checkbox"],
 .navbar .hamburger-lines{
     display: none;
@@ -51,13 +53,15 @@ a{
     color: #000;
     text-decoration: none;
 }
-.menu-items li a.sing-in-btn{
+.menu-items li .sing-in-btn{
     background-color: #21B573;
     padding: 12px 28px;
     border-radius: 33px;
     color: #fff;
 }
-/* Hero Section Style */
+/* ============================
+    Hero Section Style
+=============================== */
 .hero-area{
     background-color: #F0FFF0;
     padding: 170px 0px 63px;
@@ -102,12 +106,15 @@ a{
 .hero-image-area img{
     width: 78%;
 }
-/* Topics Area Style */
+/* ============================
+    Topics Area Style
+=============================== */
 .topics{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 42px;
     grid-gap: 30px;
+    margin-bottom: 98px;
 }
 .topic{
     background: #F8FFFB;
@@ -130,12 +137,65 @@ a{
     height: 85px;
     margin-bottom: 15px;
 }
-.topic h2{
+.topic h3, .course h3{
     font-weight: 500;
     font-size: 24px;
     line-height: 36px;
     color: #413960;
 }
-.topic p{
+.topic p, .course p,
+.course-start-date i,
+.course-start-date span,
+.course-seats i,
+.course-seats span{
     color: #585859;
 }
+/* ============================
+    Courses Area Style
+=============================== */
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    text-align: center;
+    margin-bottom: 62px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-bottom: 81px;
+}
+.course{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 24px 20px 31px 19px;
+}
+.course img{
+    width: 331px;
+    margin-bottom: 19px;
+}
+.course p{
+    margin-bottom: 30px;
+}
+.buy-course{
+    background-color: #21B573;
+    padding: 8px 28px;
+    border-radius: 33px;
+    color: #fff;
+}
+.course-info{
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+.course-start-date i,
+.course-seats i{
+    font-size: 18px;
+    margin-right: 2px;
+}
+/* ============================
+    Testimonial Area Style
+=============================== */
