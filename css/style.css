@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+*,
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+}
+/* Navbar Style */
+.navbar input[type="checkbox"],
+.navbar .hamburger-lines{
+    display: none;
+}
+.navbar{
+    background-color: #F0FFF0;
+    position: fixed;
+    width: 100%;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.logo-wrapper img{
+    width: 200px;
+}
+.menu-items{
+    display: flex;
+}
+.menu-items li{
+    list-style-type: none;
+    margin-left: 50px;
+}
+.menu-items li a{
+    color: #000;
+    text-decoration: none;
+}
+.menu-items li a.sing-in-btn{
+    background-color: #21B573;
+    padding: 12px 28px;
+    border-radius: 33px;
+    color: #fff;
+}
+/* Hero Section Style */
+.hero-area{
+    background-color: #F0FFF0;
+    padding: 170px 0px 63px;
+}
+.hero-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-text-area{
+    flex: 50%;
+    padding-right: 176px;
+}
+.hero-text-area h3{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FD511A;
+}
+.hero-text-area h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    color: #000;
+}
+.hero-text-area h1 span{
+    color: #21B573;
+}
+.hero-text-area p{
+    color: #6C6B6B;
+    line-height: 36px;
+    margin-bottom: 35px;
+}
+.hero-text-area a{
+    background-color: #21B573;
+    padding: 12px 36px;
+    border-radius: 33px;
+    color: #fff;
+}
+.hero-image-area{
+    flex: 50%;
+}
+.hero-image-area img{
+    width: 78%;
+}
+/* Topics Area Style */
+.topics{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 42px;
+    grid-gap: 30px;
+}
+.topic{
+    background: #F8FFFB;
+    border-radius: 10px;
+    text-align: center;
+    padding: 54px 0px 49px;
+    transition: .3s;
+    cursor: pointer;
+}
+.topic:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.student{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.topic img {
+    width: 66px;
+    height: 85px;
+    margin-bottom: 15px;
+}
+.topic h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+}
+.topic p{
+    color: #585859;
+}
